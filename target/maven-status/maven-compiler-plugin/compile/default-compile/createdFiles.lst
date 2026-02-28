@@ -1,0 +1,14 @@
+world\bentobox\crystalblockeconomy\economy\EconomyService.class
+world\bentobox\crystalblockeconomy\commands\AddMoneyCommand.class
+world\bentobox\crystalblockeconomy\economy\AccountType.class
+world\bentobox\crystalblockeconomy\CrystalBlockEconomyPlugin.class
+world\bentobox\crystalblockeconomy\storage\impl\SqliteStorage.class
+world\bentobox\crystalblockeconomy\CrystalBlockEconomy.class
+world\bentobox\crystalblockeconomy\economy\EconomyService$1.class
+world\bentobox\crystalblockeconomy\listeners\DeathLossListener.class
+world\bentobox\crystalblockeconomy\storage\impl\MySqlStorage.class
+world\bentobox\crystalblockeconomy\api\EconomyApi.class
+world\bentobox\crystalblockeconomy\commands\MoneyCommand.class
+world\bentobox\crystalblockeconomy\commands\PayCommand.class
+world\bentobox\crystalblockeconomy\storage\Storage.class
+world\bentobox\crystalblockeconomy\storage\StorageFactory.class
