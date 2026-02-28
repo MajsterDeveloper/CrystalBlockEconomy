@@ -1,0 +1,23 @@
+name: BentoBox-CrystalBlockEconomy
+main: world.bentobox.crystalblockeconomy.CrystalBlockEconomyPlugin
+version: 1.0.0-LOCAL
+api-version: "1.21"
+depend: [BentoBox]
+
+commands:
+  pay:
+    description: Przelej pieniądze innemu graczowi
+    usage: /pay <gracz> <kwota>
+  money:
+    description: Sprawdź stan konta
+    usage: /money
+    aliases: [bal, balance]
+  addmoney:
+    description: Dodaj pieniądze graczowi (admin)
+    usage: /addmoney <gracz> <kwota>
+    permission: crystalblockeconomy.admin.addmoney
+
+permissions:
+  crystalblockeconomy.admin.addmoney:
+    description: Pozwala dodawać pieniądze graczom
+    default: op

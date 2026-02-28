@@ -1,0 +1,6 @@
+name: CrystalBlockEconomy
+main: world.bentobox.crystalblockeconomy.CrystalBlockEconomy
+version: 1.0.0-LOCAL
+description: Economy pladdon for CrystalBlock (cash/bank/island accounts)
+authors: [MajsterDeveloper]
+softdepend: []

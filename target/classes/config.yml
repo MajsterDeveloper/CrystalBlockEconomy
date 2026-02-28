@@ -1,0 +1,22 @@
+storage:
+  type: sqlite  # sqlite / mysql
+
+  sqlite:
+    file: economy.db
+
+  mysql:
+    host: localhost
+    port: 3306
+    database: crystalblock
+    username: root
+    password: ""
+    useSSL: false
+    parameters: "useUnicode=true&characterEncoding=utf8"
+
+
+death-loss:
+  enabled: true
+  min-percent: 0.0
+  max-percent: 10.0
+  account: CASH
+  drop-to-ground: false   # na przyszłość, np. worek z kasą
